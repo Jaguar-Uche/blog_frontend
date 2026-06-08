@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage';
 import {Routes, Route} from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import { UserContextProvider } from './userContext';
+import { UserContextProvider } from './UserContext';
 import CreatePost from './pages/CreatePost';
 import PostPage from './pages/PostPage';
 import EditPost from './pages/EditPost';
