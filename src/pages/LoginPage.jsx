@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai';
 import { Navigate } from 'react-router-dom';
 import HomePage from './HomePage';
-import { UserContext } from '../userContext';
+import { UserContext } from '../UserContext';
 
 const LoginPage = () => {
     const [username, setUsername] = useState('');
